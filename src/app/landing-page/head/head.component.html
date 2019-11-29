@@ -1,6 +1,27 @@
-<!--<p>head works!</p>-->
-<h1>Lorem Ipsum </h1>
-<h2>Lorem Ipsum </h2>
-<h3>Lorem Ipsum </h3>
-<h4>Lorem Ipsum </h4>
-<h5>Lorem Ipsum </h5>
+<!--<mat-sidenav-content class="head-menu"></mat-sidenav-content>-->
+<header>
+    Alexander Alfimov presentation page
+</header>
+<nav>
+    <button [matMenuTriggerFor]="menu"
+            class="mobile-menu"
+            mat-icon-button>
+        <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu"
+              class="mobile-menu">
+        <button mat-menu-item name="about-me">About me</button>
+        <button mat-menu-item name="relationships">Relationships</button>
+        <button mat-menu-item name="requirements">Requirements</button>
+        <button mat-menu-item name="users">Users</button>
+        <button mat-menu-item name="sign-up">Sign Up</button>
+    </mat-menu>
+</nav>
+
+
+
+<!--<h1>Lorem Ipsum </h1>-->
+<!--<h2>Lorem Ipsum </h2>-->
+<!--<h3>Lorem Ipsum </h3>-->
+<!--<h4>Lorem Ipsum </h4>-->
+<!--<h5>Lorem Ipsum </h5>-->

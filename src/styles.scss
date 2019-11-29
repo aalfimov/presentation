@@ -1,5 +1,7 @@
 /*Main colors*/
 $main-color: #2e2eff;
+$main-second-color: #f7f7f7;
+$main-background-color: #ffff;
 
 html, body {
     height: 100%;
@@ -10,6 +12,7 @@ body {
     /*font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));*/
     font-size: 1em;
     font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: $main-second-color;
 }
 
 h1, h2, h3, h4, h5, h6 {

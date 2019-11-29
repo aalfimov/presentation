@@ -1,0 +1,131 @@
+/*Main colors*/
+html, body {
+  height: 100%;
+}
+
+body {
+  /*font-size: 100%;*/
+  /*font-size: 16px;*/
+  /*font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));*/
+  font-size: 1em;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    font-size: calc(1em + 8 * ((100vw - 320px) / 960));
+  }
+}
+@media screen and (min-width: 1280px) {
+  body {
+    font-size: 2em;
+  }
+}
+/*h1 {*/
+/*    font-size: 1em;*/
+/*    line-height: 36px;*/
+/*}*/
+/*!*h2 {*!*/
+/*!*    font-size: 26px;*!*/
+/*!*    line-height: 31px;*!*/
+/*!*}*!*/
+/*!*h3 {*!*/
+/*!*    font-size: 22px;*!*/
+/*!*    line-height: 26px;*!*/
+/*!*}*!*/
+/*!*h3, h4 {*!*/
+/*!*    font-size: 22px;*!*/
+/*!*    line-height: 26px;*!*/
+/*!*}*!*/
+/*!*h5 {*!*/
+/*!*    font-size: 16px;*!*/
+/*!*    line-height: 20px;*!*/
+/*!*}*!*/
+/*!*!* Extra small devices (phones, 600px and down) *!*!*/
+/*!*@media only screen and (max-width: 600px) {}*!*/
+/*!* Small devices (portrait tablets and large phones, 600px and up) *!*/
+/*@media only screen and (min-width: 600px) {*/
+/*    h1 {*/
+/*        font-size: 1.2em;*/
+/*        !*font-size: 42px;*/
+/*        line-height: 51px;*!*/
+/*    }*/
+/*    !*h3 {*!*/
+/*    !*    font-size: 26px;*!*/
+/*    !*    line-height: 31px;*!*/
+/*    !*}*!*/
+/*    p {*/
+/*        font-size: 16px;*/
+/*        line-height: 22px;*/
+/*    }*/
+/*}*/
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+/*@media only screen and (min-width: 768px) {*/
+/*    h1 {*/
+/*        font-size: 1.4em;*/
+/*        !*font-size: 42px;*/
+/*        line-height: 51px;*!*/
+/*    }*/
+/*}*/
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+/*@media only screen and (min-width: 992px) {*/
+/*    h1 {*/
+/*        font-size: 1.6em;*/
+/*        !*font-size: 42px;*/
+/*        line-height: 51px;*!*/
+/*    }*/
+/*}*/
+/*!* Extra large devices (large laptops and desktops, 1200px and up) *!*/
+/*@media only screen and (min-width: 1200px) {*/
+/*    h1 {*/
+/*        font-size: 1.8em;*/
+/*        !*font-size: 50px;*/
+/*        line-height: 60px;*!*/
+/*    }*/
+/*    !*h2 {*!*/
+/*    !*    font-size: 42px;*!*/
+/*    !*    line-height: 51px;*!*/
+/*    !*}*!*/
+/*    !*h3 {*!*/
+/*    !*    font-size: 26px;*!*/
+/*    !*    line-height: 31px;*!*/
+/*    !*}*!*/
+/*    p {*/
+/*        font-size: 18px;*/
+/*        line-height: 26px;*/
+/*    }*/
+/*}*/
+.head-menu {
+  position: fixed;
+  background-color: #2e2eff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    font-size: calc(1em + 8 * ((100vw - 320px) / 960));
+  }
+}
+@media screen and (min-width: 600px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  body {
+    font-size: 2em;
+  }
+}
+
+/*# sourceMappingURL=head.component.css.map */
