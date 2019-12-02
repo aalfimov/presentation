@@ -124,5 +124,10 @@
       }
     }
   },
-  "defaultProject": "my-presentation-page"
+  "defaultProject": "my-presentation-page",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

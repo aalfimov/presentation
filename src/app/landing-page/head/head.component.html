@@ -3,6 +3,17 @@
     Alexander Alfimov presentation page
 </header>
 <nav>
+    <mat-toolbar>About me</mat-toolbar>
+    <button [matMenuTriggerFor]="menu"
+            class="sidenav-toggle mat-button mat-button-base"
+            mat-button="">
+            <mat-icon aria-hidden="true"
+                      class="mat-icon notranslate material-icons mat-icon-no-color"
+                      role="img">
+                menu
+            </mat-icon>
+    </button>
+
     <button [matMenuTriggerFor]="menu"
             class="mobile-menu"
             mat-icon-button>
@@ -17,7 +28,6 @@
         <button mat-menu-item name="sign-up">Sign Up</button>
     </mat-menu>
 </nav>
-
 
 
 <!--<h1>Lorem Ipsum </h1>-->
